@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/lfan/Documents/code/goLocal/app/build/intermediates/pre-dexed/debug/joda-time-1.6.1-9ae9d8ef60a9964f9a4c38ce519f00e750b1ce49.jar"
+        jar="/Users/lfan/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/1.6.1/59e4bababc858900da4cf9ea1aebdb02298112cc/joda-time-1.6.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="59e4bababc858900da4cf9ea1aebdb02298112cc"/>
+    <item
+        dex="/Users/lfan/Documents/code/goLocal/app/build/intermediates/pre-dexed/debug/ion-1.4.0-03780941752a544841857b87abbcc9a769fe2916.jar"
+        jar="/Users/lfan/.gradle/caches/modules-2/files-2.1/com.koushikdutta.ion/ion/1.4.0/83d42eb62aee89512b4c06a37cfdbeb6536f80/ion-1.4.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="0083d42eb62aee89512b4c06a37cfdbeb6536f80"/>
+    <item
+        dex="/Users/lfan/Documents/code/goLocal/app/build/intermediates/pre-dexed/debug/Parse-1.6.0-b8b6ece919feaa8b7f80138fefe25b109246d666.jar"
+        jar="/Users/lfan/Documents/code/goLocal/app/libs/Parse-1.6.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="2a812174191af5a4513a873602a765b0171f252c"/>
+    <item
+        dex="/Users/lfan/Documents/code/goLocal/app/build/intermediates/pre-dexed/debug/androidasync-1.4.0-472b7b4465bd6a0ed40507c887ca998f12862fee.jar"
+        jar="/Users/lfan/.gradle/caches/modules-2/files-2.1/com.koushikdutta.async/androidasync/1.4.0/4f175f7412911432c6e401501769133ee1a17c72/androidasync-1.4.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="4f175f7412911432c6e401501769133ee1a17c72"/>
+    <item
+        dex="/Users/lfan/Documents/code/goLocal/app/build/intermediates/pre-dexed/debug/library-2.4.0-563c6e2bba3375a9dc64da3846d23ddb7e4f332b.jar"
+        jar="/Users/lfan/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb"/>
+    <item
+        dex="/Users/lfan/Documents/code/goLocal/app/build/intermediates/pre-dexed/debug/classes-aca617f4f8b17a55374810608e3b838f0bfe3dce.jar"
+        jar="/Users/lfan/Documents/code/goLocal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="/Users/lfan/Documents/code/goLocal/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-d162d5a660b6153e71a830ab4086997d1f9afe0d.jar"
+        jar="/Users/lfan/Downloads/adt-bundle-mac-x86_64-20140321/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="/Users/lfan/Documents/code/goLocal/app/build/intermediates/pre-dexed/debug/classes-c3766d29580756b0cc0820154d17160a263dd977.jar"
+        jar="/Users/lfan/Documents/code/goLocal/app/build/intermediates/exploded-aar/com.github.gabrielemariotti.cards/library/1.9.0/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="81bd93a92a115746312a8f583fbd057137cb2ce7"/>
+    <item
+        dex="/Users/lfan/Documents/code/goLocal/app/build/intermediates/pre-dexed/debug/gson-2.3-371453c1fa4279a3cbaa34ceb821bb47102a82d9.jar"
+        jar="/Users/lfan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3/5fc52c41ef0239d1093a1eb7c3697036183677ce/gson-2.3.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5fc52c41ef0239d1093a1eb7c3697036183677ce"/>
+    <item
+        dex="/Users/lfan/Documents/code/goLocal/app/build/intermediates/pre-dexed/debug/classes-2b2ce13b8b8e8bb327446ebb101b21125ac3f006.jar"
+        jar="/Users/lfan/Documents/code/goLocal/app/build/intermediates/exploded-aar/com.doomonafireball.betterpickers/library/1.5.2/classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="73d0c7e564f21532cdda0b0c93b07be5aee87e7d"/>
+
+</pre-dex-items>

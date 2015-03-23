@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <EditText android:id="@+id/edit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/edit_title" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <Button
+            android:id="@+id/date_button"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:drawableLeft="@drawable/calendar_blue"
+            android:text="Event Date"/>
+        <TextView
+            android:id="@+id/date_text"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/date_button"/>
+    </RelativeLayout>
+
+    <EditText android:id="@+id/edit_url"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/edit_url" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/category_text"
+            android:layout_width="180dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
+            android:text="Event Category"/>
+        <Spinner
+            android:id="@+id/category_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="left"
+            android:layout_toRightOf="@+id/category_text"/>
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="130dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="45dp"
+        android:fontFamily="sans-serif-condensed"
+        android:drawableLeft="@drawable/yes"
+        android:textSize="22sp"
+        android:text="Create"/>
+</LinearLayout>

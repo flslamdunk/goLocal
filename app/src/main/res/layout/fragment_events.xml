@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eee"
+        android:gravity="center"
+        android:padding="0dp"
+        android:visibility="gone" >
+
+        <ProgressBar
+            android:id="@+id/emptyProgress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp" />
+
+        <TextView
+            android:id="@+id/emptyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:text="@string/loading" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/nodata"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:text="@string/nodata" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/location_text"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="20sp"
+            android:text="fun events near"/>
+        <Spinner
+            android:id="@+id/location_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="left"
+            android:layout_toRightOf="@+id/location_text"/>
+    </RelativeLayout>
+
+    <it.gmariotti.cardslib.library.view.CardListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:id="@+id/card_list_view"
+        card:list_card_layout_resourceID="@layout/list_card_thumbnail_layout" />
+
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.golocal.activity.homeActivity" >
+
+    <item android:id="@+id/action_backward"
+        android:icon="@drawable/blue_backward"
+        android:title="Previous Week"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_forward"
+        android:icon="@drawable/blue_forward"
+        android:title="Next Week"
+        android:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_add"
+        android:icon="@drawable/blue_plus"
+        android:title="Add"
+        android:showAsAction="ifRoom"/>
+
+</menu>
